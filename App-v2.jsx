@@ -18,12 +18,12 @@ import {
 
 // ** IMPORTANTE: Configuración de Firebase **
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
-    apiKey: "TU_API_KEY_FIREBASE", 
-    authDomain: "TU_AUTH_DOMAIN_FIREBASE",
-    projectId: "TU_PROJECT_ID_FIREBASE",
-    storageBucket: "TU_STORAGE_BUCKET_FIREBASE",
-    messagingSenderId: "TU_MESSAGING_SENDER_ID_FIREBASE",
-    appId: "TU_APP_ID_FIREBASE"
+    apiKey: "AIzaSyB-7LgxAOw1Fh8DQYMSXTs9bWcoIKsgqLw", 
+    authDomain: "tudy-spark-ai-app.firebaseapp.com",
+    projectId: "study-spark-ai-app",
+    storageBucket: "study-spark-ai-app.appspot.com",
+    messagingSenderId: "728069876548",
+    appId: "G-NPWJB081DF"
 };
 
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'study-spark-ai-default';
